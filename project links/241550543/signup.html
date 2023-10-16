@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Noisli</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .welcome-text {
+            flex: 1;
+            padding: 50px;
+            background-color: white;
+            color: #23eb9e;
+            text-align: center;
+        }
+
+        .login-box {
+            flex: 1;
+            padding: 50px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 65px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #23eb9e;
+        }
+
+        form {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #23eb9e;
+        }
+
+        input {
+            width: 60%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+	
+        }
+
+        .forgot-password {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #23eb9e;
+            text-decoration: none;
+        }
+
+        button {
+            background-color: #23eb9e;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #1ccf7f;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-box">
+        <h2>Noisli</h2>
+        <p>Nice to meet you!
+Sign Up for a Free account.</p>
+        <form>
+            <label for="email">Signup with Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <div class="forgot-password">
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit">Signup for free</button>
+        </form>
+    </div>
+
+    <div class="welcome-text">
+        <h1>Welcome to Noisli, your digital place for focus.</h1>
+
+    </div>
+</body>
+
+</html>
